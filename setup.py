@@ -7,7 +7,7 @@ long_description = "Check the full documentation [here](https://github.com/rough
   
 setup( 
         name ='bulkmail', 
-        version ='1.0.1', 
+        version ='1.0.2', 
         author ='Rafeed M. Bhuiyan', 
         author_email ='rafeedm.bhuiyan@gmail.com', 
         url ='https://github.com/roughweed/csv-bulk-email', 

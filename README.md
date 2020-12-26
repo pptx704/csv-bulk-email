@@ -1,6 +1,6 @@
 # python-bulkmail
 
-#### version 1.0.1
+#### version 1.0.2
 
 This package is for sending bulk emails using a CSV database. Bulk emails can be sent using CLI or can be used inside other python applications.
 
