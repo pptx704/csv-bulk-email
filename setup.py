@@ -3,11 +3,11 @@ from setuptools import setup, find_packages
 with open('requirements.txt') as f: 
     requirements = f.readlines() 
   
-long_description = open('README.md', 'r', encoding='utf-8').read() 
+long_description = "Check the full documentation [here](https://github.com/roughweed/csv-bulk-email)"
   
 setup( 
         name ='bulkmail', 
-        version ='1.0.0', 
+        version ='1.0.1', 
         author ='Rafeed M. Bhuiyan', 
         author_email ='rafeedm.bhuiyan@gmail.com', 
         url ='https://github.com/roughweed/csv-bulk-email', 
@@ -26,6 +26,7 @@ setup(
             "License :: OSI Approved :: MIT License", 
             "Operating System :: OS Independent", 
         ), 
+        python_requires='>=3.7',
         keywords ='email bulk cli mail', 
         install_requires = requirements, 
         zip_safe = False

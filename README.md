@@ -1,6 +1,6 @@
-# csv-bulk-email
+# python-bulkmail
 
-#### version 0.1.0
+#### version 1.0.1
 
 This package is for sending bulk emails using a CSV database. Bulk emails can be sent using CLI or can be used inside other python applications.
 
@@ -358,7 +358,9 @@ So the idea is- you will mention the variable name first and then the field that
 
 
 
-**The following part is for developers who want to contribute to this package**
+# For Contributors
+
+The following part is for contributors who want to contribute to this package.
 
 ## To-do
 
