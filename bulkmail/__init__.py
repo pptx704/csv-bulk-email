@@ -1,0 +1,1 @@
+from .mailer import TextMail
