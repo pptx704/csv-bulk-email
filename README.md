@@ -356,10 +356,6 @@ So the idea is- you will mention the variable name first and then the field that
 
 
 
-## Examples
-
-To be added
-
 
 
 **The following part is for developers who want to contribute to this package**
