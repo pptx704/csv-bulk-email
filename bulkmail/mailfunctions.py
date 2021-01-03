@@ -18,7 +18,6 @@ def startsession(credentials):
 
     # creating smtp session
     session = smtplib.SMTP(SMTP_HOST, SMTP_PORT)
-    session.ehlo_or_helo_if_needed()
     session.starttls()
     session.login(SENDER_EMAIL, SENDER_PASSWORD)
 
@@ -39,7 +38,6 @@ def sendnovar(
     reader = DictReader(database)
 
     # start
-    session = startsession(credentials)
     SENDER_EMAIL = credentials.get("SENDER_EMAIL")
 
     # making logfiles
@@ -50,6 +48,7 @@ def sendnovar(
 
     # email processing
     for row in reader:
+        session = startsession(credentials)
         RECEIVER_EMAIL = row[email_field]
         try:
             email = MIMEMultipart()
@@ -63,6 +62,7 @@ def sendnovar(
             failurelog.write(
                 f"Failed to send email to {RECEIVER_EMAIL}. Time: {now()}\n"
             )
+        session.quit()
 
     # ending session and closing logs
     successlog.write(f"\nSession ends at {now()}\n-----------------------\n")
@@ -72,7 +72,6 @@ def sendnovar(
     failurelog.close()
     database.close()
 
-    session.quit()
 
 
 def sendvar(
@@ -89,7 +88,6 @@ def sendvar(
     reader = DictReader(database)
 
     # start session
-    session = startsession(credentials)
     SENDER_EMAIL = credentials.get("SENDER_EMAIL")
 
     # making logfiles
@@ -100,6 +98,7 @@ def sendvar(
 
     # email processing
     for row in reader:
+        session = startsession(credentials)
         RECEIVER_EMAIL = row[email_field]
         try:
             email = MIMEMultipart()
@@ -115,6 +114,7 @@ def sendvar(
             failurelog.write(
                 f"Failed to send email to {RECEIVER_EMAIL}. Time: {now()}\n"
             )
+        session.quit()
 
     # ending session and closing logs
     successlog.write(f"\nSession ends at {now()}\n-----------------------\n")
@@ -124,4 +124,3 @@ def sendvar(
     failurelog.close()
     database.close()
 
-    session.quit()
