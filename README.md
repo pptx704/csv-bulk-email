@@ -23,6 +23,8 @@ Python 3.7 +
 
 Run `bulkmail --help` to check if the package was installed in command line properly.
 
+Note: `pip` version is unstable at this moment. Use `python setup.py install` inside virtualenv explicitly instead of `pip install bulkmail`.
+
 # Usage
 
 The following demo csv database will be used all over this documentation.
