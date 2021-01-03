@@ -23,6 +23,8 @@ Python 3.7 +
 
 Run `bulkmail --help` to check if the package was installed in command line properly.
 
+Note: `pip` version is unstable at this moment. Use `python setup.py install` inside virtualenv explicitly instead of `pip install bulkmail`.
+
 # Usage
 
 The following demo csv database will be used all over this documentation.
@@ -211,9 +213,9 @@ Currently the package contains one class `TextMail` which is used to send text b
 Methods-
 
 *  `set_email_field`- Takes email field name as argument and sets up the [email field](#email-field) name. 
-* `set_subject`- Takes the email's subject as argument and sets up the mails' subject. 
-* `set_template`- Takes template file name e.g. `template.txt` as argument and reads the content.
-* `add_variables`- Takes a dictionary of [variables](#variables) and sets them up for replacing in template.
+*  `set_subject`- Takes the email's subject as argument and sets up the mails' subject. 
+*  `set_template`- Takes template file name e.g. `template.txt` as argument and reads the content.
+*  `add_variables`- Takes a dictionary of [variables](#variables) and sets them up for replacing in template.
 
 Look at the following code snippets for details-
 
