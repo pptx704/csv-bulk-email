@@ -1,6 +1,6 @@
 # python-bulkmail
 
-#### version 1.0.2
+#### version 1.1.0
 
 This package is for sending bulk emails using a CSV database. Bulk emails can be sent using CLI or can be used inside other python applications.
 
@@ -22,8 +22,6 @@ Python 3.7 +
 `pip install bulkmail`
 
 Run `bulkmail --help` to check if the package was installed in command line properly.
-
-Note: `pip` version is unstable at this moment. Use `python setup.py install` inside virtualenv explicitly instead of `pip install bulkmail`.
 
 # Usage
 
@@ -358,6 +356,10 @@ So the idea is- you will mention the variable name first and then the field that
 
 
 
+# GUI Version
+
+Head to [this link](https://edvive.github.io/Bulk-Email-GUI/) for the GUI program made with this package.
+
 
 
 # For Contributors
@@ -377,4 +379,3 @@ The following part is for contributors who want to contribute to this package.
 ## Bugs
 
 * Subjects can use variables but only for the first email. That remains constant for the rest of the database.
-* Shows the `smtplib.SMTPServerDisconnected: please run connect() first`  error sometimes. Gets fixed after restarting Command Prompt or changing directory.
