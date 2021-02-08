@@ -2,6 +2,10 @@
 
 #### version 1.1.0
 
+<div style="{color:#86181d;background-color: #ffdce0;}">Due to security issues and python dependency changes, this project has been deprecated. New package containing robust structure and new features will be published soon.</div>
+
+### Note:  
+
 This package is for sending bulk emails using a CSV database. Bulk emails can be sent using CLI or can be used inside other python applications.
 
 Currently it can send only text and html based emails but will soon have attachments facilities.
