@@ -2,6 +2,12 @@
 
 #### version 1.1.0
 
+```diff
+-Unfixable security bug has been found. This project is deprecated. New package is going to be released soon with fixed security issues and new features.
+```
+
+### Note:  
+
 This package is for sending bulk emails using a CSV database. Bulk emails can be sent using CLI or can be used inside other python applications.
 
 Currently it can send only text and html based emails but will soon have attachments facilities.
