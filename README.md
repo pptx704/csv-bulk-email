@@ -2,7 +2,7 @@
 
 #### version 1.1.0
 
-<div style="color:#86181d;background-color: #ffdce0;font-size:large;">Due to security issues and python dependency changes, this project has been deprecated. New package containing robust structure and new features will be published soon.</div>
+<div style="color:#86181d;background-color: #ffdce0;font-size:x-large;">Due to security issues and python dependency changes, this project has been deprecated. New package containing robust structure and new features will be published soon.</div>
 
 ### Note:  
 
