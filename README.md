@@ -2,9 +2,7 @@
 
 #### version 1.1.0
 
-```diff
--Unfixable security bug has been found. This project is deprecated. New package is going to be released soon with fixed security issues and new features.
-```
+<div style="{color:#86181d;background-color: #ffdce0;}">Due to security issues and python dependency changes, this project has been deprecated. New package containing robust structure and new features will be published soon.</div>
 
 ### Note:  
 
