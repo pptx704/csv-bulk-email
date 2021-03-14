@@ -2,7 +2,7 @@
 
 #### version 1.1.0
 
-<div style="color:#86181d;background-color: #ffdce0;font-size:x-large;">Due to security issues and python dependency changes, this project has been deprecated. New package containing robust structure and new features will be published soon.</div>
+<div style="color:#86181d;background-color: #ffdce0;font-size:x-large;">Project depracated and soon to be released as a more diverse and functioning Python Package. Stay tuned.</div>
 
 ### Note:  
 
@@ -215,9 +215,9 @@ Currently the package contains one class `TextMail` which is used to send text b
 Methods-
 
 *  `set_email_field`- Takes email field name as argument and sets up the [email field](#email-field) name. 
-*  `set_subject`- Takes the email's subject as argument and sets up the mails' subject. 
-*  `set_template`- Takes template file name e.g. `template.txt` as argument and reads the content.
-*  `add_variables`- Takes a dictionary of [variables](#variables) and sets them up for replacing in template.
+* `set_subject`- Takes the email's subject as argument and sets up the mails' subject. 
+* `set_template`- Takes template file name e.g. `template.txt` as argument and reads the content.
+* `add_variables`- Takes a dictionary of [variables](#variables) and sets them up for replacing in template.
 
 Look at the following code snippets for details-
 
